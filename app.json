@@ -1,5 +1,5 @@
 {
-  "name": "B.M.B-XMD",
+  "name": "𝐷.𝐵.𝑌-XMD",
   "description": "Javascript WhatsApp bot made by bmb200",
   "logo": "https://files.catbox.moe/6lwftg.jpg",
   "keywords": [".B.M.B-XMD"],
@@ -8,9 +8,9 @@
     "stack": "container",
   "env": {
     "SESSION_ID": {
-      "description": "Put the session-id here.",
+      "description": "BMB-XMD~qVBEiZxJ#F1ceouEcpJMQXPYIx2ARZbhz9uDS1WsM0u_WpHWsKPg",
       "required": true,
-      "value": ""
+      "value": "true"
     },  
     
     "STICKER_NAME": {
@@ -28,7 +28,7 @@
     "MODE": {
       "description": "select your bot work type public-private-inbox-group.",
       "required": false,
-      "value": "public"
+      "value": "private"
       
     },
     
@@ -61,13 +61,13 @@
     "AUTO_STATUS_SEEN": {
       "description": "Make it true for automatic status seen.",
       "required": true,
-      "value": "true"
+      "value": "false"
     }, 
 
     "AUTO_STATUS_REACT": {
       "description": "make it true for automatic status reaction or like.",
       "required": true,
-      "value": "true"
+      "value": "false"
     }, 
 
     "AUTO_STATUS_REPLY": {
@@ -79,27 +79,27 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY B.M.B-XMD 🖤*"
+      "value": "*SEEN YOUR STATUS BY 𝐷.𝐵.𝑌-XMD 🖤*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "𝙱.𝙼.𝙱-𝚇𝙼𝙳"
+      "value": "𝐷𝐸ℕ𝐵𝙊𝑌"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "255"
+      "value": "263789085533"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "B.M.B-XMD"
+      "value": "𝐷.𝐵.𝑌-XMD"
 
       }, 
 
@@ -113,7 +113,7 @@
      "ANTI_LINK_KICK": {
       "description": "Make it true if you want bot auto remove group link.",
       "required": true,
-      "value": "true"
+      "value": "false"
       
     },
     
@@ -138,7 +138,7 @@
      "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ ʙ.ᴍ.ʙ-xᴍᴅ*"
+      "value": "*© powered by 𝐷𝐸ℕ𝐵𝙊𝑌*"
     },
 
       "DELETE_LINKS": {
@@ -193,7 +193,7 @@
     "WELCOME": {
       "description": "make it true if want goodbye and welcome message in groups.",
       "required": false,
-      "value": "true"
+      "value": "false"
     },
 
     "READ_MESSAGE": {
